@@ -17,3 +17,6 @@ This is a simple web application written with Django. It implements a single vie
 This application contains a build file for [circleci](https://circleci.com/) to deploy the vulnerable application to [Heroku](https://heroku.com). There are build jobs defined to do a dependency check for the python application using [safety](https://pypi.org/project/safety/) and a dynamic application security test using the [Crashtest Security Suite](https://crashtest-security.com).
 
 To run these jobs, they need to be added to the defined workflow.
+
+
+Trigger the build
